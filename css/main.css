@@ -24,21 +24,21 @@ nav li a{
     background: #CCC;
     padding-left: 0px;
     display: table;
-    transition: all 3s;
+    transition: all 1.5s;
 }
 
 nav li a span {
     display: table-cell;
     opacity: 0;
     background: black;
-    transition: all 2s;
+    transition: all 1.5s;
     vertical-align: middle;
     text-transform: uppercase;
     
  }
 nav li:nth-child(1) a {background: #6699FF; color: #6699FF; }
 nav li:nth-child(2) a {background: #66FFFF; color: #66FFFF; }
-nav li:nth-child(3) a {background: #FFCC66; color: #FFCC66; }
+nav li:nth-child(3) a {background: #ffb380; color: #ffb380; }
 nav li:nth-child(4) a {background: #FF99CC; color: #FF99CC; }
 
 nav li a:hover span {
